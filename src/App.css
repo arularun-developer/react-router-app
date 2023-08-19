@@ -1,0 +1,46 @@
+
+#guvilogo{
+    width:70px;
+    height: 70px;
+   
+}
+#titletext{
+    font-family: "DM Sans", Sans-serif;
+}
+.nav-link:hover{
+  color:green !important;
+}
+.nav-link{
+    font-weight: bold;
+  
+}
+.navbar-toggler-icon:focus{
+    box-shadow:none;
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.card{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-color: rgba(23, 160, 5, 0.26) !important;
+    border-width: 2px !important;
+}
+
+.card:hover{
+    transform: translate(1px,-6px);
+-webkit-transform: translate(1px,-6px);
+-moz-transform: translate(1px,-6px);
+box-shadow: -3px 13px 45px 35px rgba(0,0,0,0.1);
+-webkit-box-shadow: -3px 13px 45px 35px rgba(0,0,0,0.1);
+-moz-box-shadow: -3px 13px 45px 35px rgba(0,0,0,0.1);
+
+}
